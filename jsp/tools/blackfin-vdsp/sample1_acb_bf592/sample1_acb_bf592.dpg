@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding='ISO-8859-1'?>
+<visualdsp-project-group generated="Fri Jul 20 16:30:39 2012" version="1.0.0.0" active-project="sample1_acb_bf592">
+    <project name="libkernel" file="..\..\..\config\blackfin\acb_bf592\jsp_acb_bf592.dpj">
+    </project>
+    <project name="makeoffset" file="..\..\..\utils\blackfin-vdsp\makeoffset.dpj">
+    </project>
+    <project name="sample1_acb_bf592" file=".\sample1.dpj">
+        <dependencies>
+            <dependent-project>libkernel</dependent-project>
+        </dependencies>
+    </project>
+</visualdsp-project-group>
