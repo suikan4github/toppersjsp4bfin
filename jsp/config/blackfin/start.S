@@ -208,6 +208,7 @@ invalid :
 
     r0 = 0xC01F(z);             // IVG15を受付可能に(CPUロック状態)
     sti r0;
+user:
     csync;
     rti;                        // ユーザーモードへ遷移する
 
@@ -232,8 +233,7 @@ task_level:                     // ここからタスクの実行順位
 
     [--sp] = reti;              // 戻り番地を捨てて割り込み可能にする
     jump.x _kernel_start;           // kernel_stgart()からは戻ってこない
-user:
-    jump    user;
+    csync;
 start.end:
 
 
