@@ -1,3 +1,12 @@
+*2012/Aug/27 Release 3.3.1
+
+以下のチケットへの対策を行った。なお、チケットおよびその対策の詳細は以下のURLを参照
+http://sourceforge.jp/projects/toppersjsp4bf/ticket/
+
+-チケット #29146 リセット後の多重Supervisor状態からの脱出
+-チケット #29173 makeoffsetがDebug Buildだとビルドできない
+-チケット #29172 sample1_ezkit_bf537がVisual DSP++5 Update10でビルドが通らない
+
 *2012/Jul/28 Release 3.3.0
 
 ADSP-BF506対応部を追加した。
